@@ -5,30 +5,41 @@
             "type": "chrome",
             "request": "launch",
             "name": "sample03_01",
+            "runtimeArgs": ["--allow-file-access-from-files"], // ←この行を追記
             "file": "${workspaceFolder}/sample03_01/index.html"
         },
         {
             "type": "chrome",
             "request": "launch",
             "name": "sample03_04",
+            "runtimeArgs": ["--allow-file-access-from-files"],
             "file": "${workspaceFolder}/sample03_04/index.html"
         },
         {
             "type": "chrome",
             "request": "launch",
             "name": "sample03_05",
+            "runtimeArgs": [
+                "--allow-file-access-from-files"
+            ],
             "file": "${workspaceFolder}/sample03_05/index.html"
         },
         {
             "type": "chrome",
             "request": "launch",
             "name": "sample03_06",
+            "runtimeArgs": [
+                "--allow-file-access-from-files"
+            ],
             "file": "${workspaceFolder}/sample03_06/index.html"
         },
         {
             "type": "chrome",
             "request": "launch",
             "name": "sample03_07",
+            "runtimeArgs": [
+                "--allow-file-access-from-files"
+            ],
             "file": "${workspaceFolder}/sample03_07/index.html"
         }
     ]
