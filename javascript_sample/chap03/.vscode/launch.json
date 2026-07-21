@@ -26,7 +26,7 @@
             "file": "${workspaceFolder}/sample03_06/index.html"
         },
         {
-            "type": "pwa-msedge",
+            "type": "chrome",
             "request": "launch",
             "name": "sample03_07",
             "file": "${workspaceFolder}/sample03_07/index.html"
