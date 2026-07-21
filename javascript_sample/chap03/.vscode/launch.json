@@ -6,14 +6,16 @@
             "request": "launch",
             "name": "sample03_01",
             "runtimeArgs": ["--allow-file-access-from-files"], // ←この行を追記
-            "file": "${workspaceFolder}/sample03_01/index.html"
+            "file": "${workspaceFolder}/sample03_01/index.html",
+            "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" // ←これを追加
         },
         {
             "type": "chrome",
             "request": "launch",
             "name": "sample03_04",
             "runtimeArgs": ["--allow-file-access-from-files"],
-            "file": "${workspaceFolder}/sample03_04/index.html"
+            "file": "${workspaceFolder}/sample03_04/index.html",
+            "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" // ←これを追加
         },
         {
             "type": "chrome",
@@ -22,7 +24,8 @@
             "runtimeArgs": [
                 "--allow-file-access-from-files"
             ],
-            "file": "${workspaceFolder}/sample03_05/index.html"
+            "file": "${workspaceFolder}/sample03_05/index.html",
+            "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" // ←これを追加
         },
         {
             "type": "chrome",
@@ -31,7 +34,8 @@
             "runtimeArgs": [
                 "--allow-file-access-from-files"
             ],
-            "file": "${workspaceFolder}/sample03_06/index.html"
+            "file": "${workspaceFolder}/sample03_06/index.html",
+            "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" // ←これを追加
         },
         {
             "type": "chrome",
@@ -40,7 +44,8 @@
             "runtimeArgs": [
                 "--allow-file-access-from-files"
             ],
-            "file": "${workspaceFolder}/sample03_07/index.html"
+            "file": "${workspaceFolder}/sample03_07/index.html",
+            "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" // ←これを追加
         }
     ]
 }
